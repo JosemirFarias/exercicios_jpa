@@ -1,0 +1,20 @@
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0">
+
+    <persistence-unit name="meuPU">
+
+        <!-- Configuração do banco de dados -->
+        <properties>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/curso-jpa" />
+            <property name="jakarta.persistence.jdbc.user" value="root" />
+            <property name="jakarta.persistence.jdbc.password" value="8558jfbm" />
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+
+            <!-- Dialeto e configurações adicionais -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.show_sql" value="true" />
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
