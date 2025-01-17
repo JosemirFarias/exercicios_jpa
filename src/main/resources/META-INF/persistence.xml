@@ -1,6 +1,8 @@
 <persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0">
 
-    <persistence-unit name="meuPU">
+    <persistence-unit name="exercicios_jpa">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>modelo.basico.Usuario</class>
 
         <!-- Configuração do banco de dados -->
         <properties>
