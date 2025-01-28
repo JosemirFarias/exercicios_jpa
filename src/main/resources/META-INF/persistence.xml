@@ -3,6 +3,7 @@
     <persistence-unit name="exercicios_jpa">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>modelo.basico.Usuario</class>
+        <class>modelo.basico.Produto</class>
 
         <!-- Configuração do banco de dados -->
         <properties>
